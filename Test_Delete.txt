@@ -1,0 +1,2 @@
+delete FROM Fournisseurs ;
+delete from fournisseurs where idFournisseurs = 101 ;

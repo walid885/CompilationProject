@@ -1,0 +1,1 @@
+Create TABLE Persons( PersonID int AUTO INCREMENTED,Prenom varchar,Nom varchar,Address VARCHAR,Ville varchar);

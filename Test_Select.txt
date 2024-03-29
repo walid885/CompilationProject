@@ -1,0 +1,4 @@
+select * from fournisseurs ;
+SELECT count ( prenom ) from fournisseurs where nom = mani ; 
+select avg (salaire) from employe where id > 100 ;
+SELECT sum (id) from employe where age <= 30 ;

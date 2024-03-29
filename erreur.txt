@@ -1,0 +1,3 @@
+SELECT * FROM fournisseur ;
+SELECT prenom, nom FROM client WHERE numClt=a;
+update client SET name=103 , column = aziz where salaire<500;

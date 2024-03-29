@@ -1,0 +1,13 @@
+DELETE from TopG;
+DELETE from TopG WHERE CODE=102 ;
+update client SET name=abderrahmen, column = value where salaire<500;
+SELECT * FROM TopG ;
+SELECT prenom, nom FROM client WHERE numClt=2 ;
+SELECT count(prenom) FROM client WHERE montant=1600 ;
+SELECT avg(montant) FROM client WHERE prenom=baccouch ;
+SELECT sum(montant) FROM client WHERE prenom=abderrahmen ;
+drop table client ; 
+DROP DATABASE TopG ;
+INSERT INTO TopG values ( AndrewTate ) ; 
+CREATE TABLE Persons( PersonID int AUTO INCREMENTED,LastName varchar,FirstName varchar,Address VARCHAR,City varchar);
+QUIT

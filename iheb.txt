@@ -1,0 +1,4 @@
+SELECT * from tab;
+DELETE from tab WHERE id=6; 
+DELETE from tab;
+QUIT
